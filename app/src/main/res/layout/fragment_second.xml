@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    tools:context=".SecondFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/txtSecondFrag"
+        android:layout_width="228dp"
+        android:layout_height="94dp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="SEGUNDO FRAGMENTO\n BOTON ENVIAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.215" />
+
+    <RadioGroup
+        android:id="@+id/trivia1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/opcion1Fb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pertenece a fb" />
+
+        <RadioButton
+            android:id="@+id/opcion2Twt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pertenece a twitter" />
+
+        <RadioButton
+            android:id="@+id/opcion3Wsp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pertenece a whatsapp" />
+
+        <RadioButton
+            android:id="@+id/opcion4Ig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pertenece a ig" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
